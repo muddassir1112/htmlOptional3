@@ -1,121 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="twitterHome">
-           <h2><i class='fas fa fa-twitter' style='font-size:48px;color:#1ba0f0'></i></h2>
-            <ul>
-                <li><a href="#0"><i class='fas fa fa-home'></i>&nbsp;&nbsp;Home </a></li>
-                <li><a href="#0"><i class='fas fa fa-hashtag'></i>&nbsp; &nbsp;Explore</a></li>
-                <li><a href="#0"><i class='fas fa fa-bell'></i> &nbsp;&nbsp;Notifications</a></li>
-                <li><a href="#0"><i class="fas fa fa-envelope"></i> &nbsp;&nbsp;Messages</a></li>
-                <li><a href="#0"><i class='fas fa fa-bookmark'></i> &nbsp;&nbsp;Bookmarks</a></li>
-                <li><a href="#0"><i class='fas fa fa-list-alt'></i>&nbsp;&nbsp; List</a></li>
-                <li><a href="#0"><i class='fas fa fa-user-circle'></i>&nbsp; &nbsp;Profile</a></li>
-                <li><a href="#0"><i class='fas fa fa-info-circle'></i>&nbsp; &nbsp;More</a></li>
-            </ul>
-            <button class="twitterHome__btn" >Tweet</button>
+      <div class="twitterHome">
+        <h2>
+          <i
+            class="fas fa fa-twitter"
+            style="font-size: 48px; color: #1ba0f0"
+          ></i>
+        </h2>
+        <ul>
+          <li>
+            <a href="#0"><i class="fas fa fa-home"></i>&nbsp;&nbsp;Home </a>
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-hashtag"></i>&nbsp; &nbsp;Explore</a
+            >
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-bell"></i> &nbsp;&nbsp;Notifications</a
+            >
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-envelope"></i> &nbsp;&nbsp;Messages</a
+            >
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-bookmark"></i> &nbsp;&nbsp;Bookmarks</a
+            >
+          </li>
+          <li>
+            <a href="#0"><i class="fas fa fa-list-alt"></i>&nbsp;&nbsp; List</a>
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-user-circle"></i>&nbsp; &nbsp;Profile</a
+            >
+          </li>
+          <li>
+            <a href="#0"
+              ><i class="fas fa fa-info-circle"></i>&nbsp; &nbsp;More</a
+            >
+          </li>
+        </ul>
+        <button class="twitterHome__btn">Tweet</button>
+      </div>
+      <!-- ---------------------------- -->
+      <div class="home">
+        <span class="heading">Home</span>
+        <i
+          class="fas fa fa-star"
+          style="font-size: 30px; color: #1ba0f0; float: right"
+        ></i>
+        <div class="home_textArea">
+          <img src="./profileImage.png" alt="Profile" />
+          <textarea placeholder="What's happening?"></textarea>
+          <div class="fontAwesome">
+            <i class="fas fa fa-image"></i>
+            <i class="fas fa fa-gift"></i>
+            <i class="fas fa fa-bar-chart"></i>
+            <i class="far fa fa-user-circle"></i>
+            <button class="fontAwesome__btn">Tweet</button>
+            <hr />
+          </div>
         </div>
-        <!-- ---------------------------- -->
-        <div class="home">
-            <span class="heading">Home</span>
-            <i class='fas fa fa-star' style='font-size:30px;color:#1ba0f0;float:right;'></i>
-            <div class="home_textArea">
-                <img src ='./profileImage.png' alt="Profile"/>
-                <textarea placeholder="What's happening?"></textarea>
-                <div class="fontAwesome">
-                    <i class='fas fa fa-image'></i>
-                    <i class="fas fa fa-gift"></i>
-                    <i class="fas fa fa-bar-chart"></i>
-                    <i class='far fa fa-user-circle'></i>
-                    <button class="fontAwesome__btn">Tweet</button>
-                    <hr>
-                </div>
+        <div class="home__posts">
+          <div class="home__posts__post1">
+            <div class="post1__image">
+              <img src="./userProfile.png" alt="" />
             </div>
-            <div class="home__posts">
-                <div class="home__posts__post1">
-                    <div class="post1__image">
-                        <img src="./userProfile.png" alt=""/>
-                    </div>
-                    <div class="post1__user1">
-                        <span style="font-weight: bold;">Brie</span>
-                        <span style="color: #a0abb2;">@Sktch_ComedyFan . 3m</span>
-                        <p>Giving standup comedy a go. Open mic starts at 7, hit me up if you want ticket
-                            <a href="#0" style="color: #1ba0f0;">#heregoesnothing</a>
-                        </p>
-                        <i class='fas fa fa-comment'></i> 1
-                        <i class='fas fa fa-share-square'></i>
-                        <i class='fas fa fa-heart'></i> 8
-                        <i class="fas fa fa-cloud-upload"></i>
-                    </div>
-                </div>
-                <div class="home__posts__post2">
-                    <div class="post2__image">
-                        <img src="./haroldUser.png" alt=""/>
-                    </div>
-                    <div class="post2__user2 post1__user1">
-                        <span style="font-weight: bold;">Harold</span>
-                        <span style="color: #a0abb2;">@Sh_wang88 . 10m</span>
-                        <p>Vacation is going great !!</p>
-                        <img src="./scenery.png" alt=""/>
-                        <br>
-                        <i class='fas fa fa-comment'></i> 1
-                        <i class='fas fa fa-share-square'></i>
-                        <i class='fas fa fa-heart'></i> 8
-                        <i class="fas fa fa-cloud-upload"></i>
-                    </div>
-                </div>
+            <div class="post1__user1">
+              <span style="font-weight: bold">Brie</span>
+              <span style="color: #a0abb2">@Sktch_ComedyFan . 3m</span>
+              <p>
+                Giving standup comedy a go. Open mic starts at 7, hit me up if
+                you want ticket
+                <a href="#0" style="color: #1ba0f0">#heregoesnothing</a>
+              </p>
+              <i class="fas fa fa-comment"></i> 1
+              <i class="fas fa fa-share-square"></i>
+              <i class="fas fa fa-heart"></i> 8
+              <i class="fas fa fa-cloud-upload"></i>
             </div>
+          </div>
+          <div class="home__posts__post2">
+            <div class="post2__image">
+              <img src="./haroldUser.png" alt="" />
+            </div>
+            <div class="post2__user2 post1__user1">
+              <span style="font-weight: bold">Harold</span>
+              <span style="color: #a0abb2">@Sh_wang88 . 10m</span>
+              <p>Vacation is going great !!</p>
+              <img src="./scenery.png" alt="" />
+              <br />
+              <i class="fas fa fa-comment"></i> 1
+              <i class="fas fa fa-share-square"></i>
+              <i class="fas fa fa-heart"></i> 8
+              <i class="fas fa fa-cloud-upload"></i>
+            </div>
+          </div>
         </div>
-        <!-- ---------------------------- -->
-<div class="rightMost">
-<input type="text" placeholder="Search twitter..."/>
-<div class="trendsForYou">
-    <span>Trends For You</span>
-    <i class="material-icons" style="float:right;color: #1ba0f0;">&#xe8b8;</i>
-    <hr>
-    
-</div>
-<div class="trending">
-    <p style="color: #535657;">Trending Worldwide</p>
-    <p><b>#BreakingNews</b></p>
-    <div class="trending__space">
-        <div class="trending__space__details">
-            <span style="color: #535657;">Space</span>
-            <br><br>
-            <span>Lunar Photgraphy improved the discovery of the moon</span>
+      </div>
+      <!-- ---------------------------- -->
+      <div class="rightMost">
+        <input type="text" placeholder="Search twitter..." />
+        <div class="trendsForYou">
+          <span>Trends For You</span>
+          <i class="material-icons" style="float: right; color: #1ba0f0"
+            >&#xe8b8;</i
+          >
+          <hr />
         </div>
-        <div class="trending__space__image">
-            <img src="./moon.png" alt="" style="float: right"/>
+        <div class="trending">
+          <p style="color: #535657">Trending Worldwide</p>
+          <p><b>#BreakingNews</b></p>
+          <div class="trending__space">
+            <div class="trending__space__details">
+              <span style="color: #535657">Space</span>
+              <br /><br />
+              <span>Lunar Photgraphy improved the discovery of the moon</span>
+            </div>
+            <div class="trending__space__image">
+              <img src="./moon.png" alt="" style="float: right" />
+            </div>
+          </div>
+          <p style="color: #535657">10,094 are tweeting about this</p>
+          <hr />
+          <div class="worldNews">
+            <div class="worldNews__details">
+              <p style="color: #535657">Trending Worldwide</p>
+              <p><b>#WorldNews</b></p>
+              <p style="color: #535657">125K Tweets</p>
+              <p style="color: #535657">50,094 are Tweeting about this</p>
+            </div>
+            <button class="twitterHome__btn">Show More</button>
+          </div>
         </div>
+      </div>
     </div>
-    <p style="color: #535657;">10,094 are tweeting about this</p>
-    <hr>
-    <div class="worldNews">
-        <div class="worldNews__details">
-            <p style="color: #535657;">Trending Worldwide</p>
-            <p><b>#WorldNews</b></p>
-            <p style="color: #535657;"> 125K Tweets</p>
-            <p style="color: #535657;">50,094 are Tweeting about this</p>
-        </div>
-       <button class="twitterHome__btn">Show More</button>
-    </div>
-</div>
-
-</div>
-
-        </div>
-</body>
+  </body>
 </html>
